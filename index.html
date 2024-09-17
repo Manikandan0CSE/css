@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Elements</title>
+    <style>
+        p {
+          text-align: center;
+          color: red;
+        } 
+        #para1 {
+         text-align: center;
+         color: rgb(68, 0, 255);
+        }
+        .center{
+            text-align: left;
+            color: aqua;
+        }
+        p.center{
+            text-align: center;
+            color: gray;
+        }
+        p.large{
+            text-align: end;
+            color: yellow;
+        }
+h4 ,h5 ,h6{
+    text-align: left;
+    color: wheat;
+}
+        </style>
+</head>
+<body>
+    <!-- The CSS element Selector -->
+    <p>Every paragraph will be affected by the style.</p>
+    <p>Me too!</p>
+    <p>And me!</p>
+    <br>
+    <!-- The CSS id Selector -->
+    <p id="para1">Hello World!</p>
+    <p>This paragraph is not affected by the style.</p>
+    <!-- The CSS class Selector -->
+    <h1 class="center">Red and center-aligned heading</h1>
+    <p class="center">Red and center-aligned paragraph.</p> 
+    <p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p> 
+    <!-- The CSS Universal Selector Ex: * {
+  text-align: center;
+  color: blue;
+}-->
+
+<!-- The CSS Grouping Selector -->
+<h4>Hello</h4>
+<h5>World!</h5>
+<h6>Define</h6>
+</body>
+</html>
